@@ -22,7 +22,7 @@ from train import DEVICE, SAVE_PATH, PetSegmentation, iou_score, split_train_val
 # ---------------------------------------------------------------------------
 # Settings
 # ---------------------------------------------------------------------------
-NUM_IMAGES = 6  # how many validation images to look at
+NUM_IMAGES = 9  # how many validation images to look at
 OUTPUT_DIR = "predictions"  # where the pictures are saved
 OUTPUT_FILE = "val_predictions.png"
 
